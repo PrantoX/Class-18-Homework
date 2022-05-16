@@ -1,0 +1,584 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.container {
+    width: 1300px;
+    margin: auto;
+}
+.left {
+    float: left;
+    padding: 0;
+}
+.right {
+    float: right;
+    padding: 0;
+}
+
+.header-section {
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 11px 0px;
+    /* position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%; */
+}
+.header .header-left {
+    width: 31.3%;
+    float: left;
+}
+.header .header-icon {
+}
+.header .header-icon a {
+    float: left;
+    font-size: 60px;
+    padding-top: 2px;
+    color: white;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 35px;
+    background-color: #fe6c00;
+    border-radius: 10px;
+}
+.header .header-icon a i {
+    padding: 10px;
+}
+.header .header-icon h1 {
+    line-height: 100px;
+    font-size: 35px;
+}
+
+.header .header-menu {
+    width: 50.3%;
+    float: left;
+    text-align: center;
+}
+.header .header-menu ul {
+    line-height: 100px;
+}
+.header .header-menu ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.header .header-menu ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 20px;
+
+    color: black;
+    transition: 0.5s;
+}
+.header .header-menu ul li a:hover {
+    color: #fe6c00;
+}
+
+.header .header-right {
+    width: 15.3%;
+    float: left;
+    text-align: right;
+    line-height: 100px;
+}
+.header .header-right a {
+    text-decoration: none;
+    font-size: 20px;
+    border: 3px solid #fe6c00;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: #fe6c00;
+    transition: 0.5s;
+}
+.header .header-right a:hover {
+    background-color: #fe6c00;
+    color: white;
+}
+
+.banner {
+    background-image: url(https://i.postimg.cc/fTnqPZLB/wepik-2022324-63420.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-position: center center;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+}
+
+.banner .banner-details {
+}
+.banner .banner-details h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.banner .banner-details h1 {
+    font-size: 65px;
+    padding-bottom: 65px;
+}
+
+.banner .banner-icon {
+}
+
+.banner .banner-icon .button-2 a {
+    color: #ff6b01;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin: 0 10px;
+    border: 3px solid #ff6b01;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.banner .banner-icon .button-1 a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin: 0 10px;
+    background-color: #000000;
+    border: 4px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.banner .banner-icon .button-2 a:hover {
+    background-color: #ff6b01;
+    color: white;
+}
+.banner .banner-icon .button-1 a:hover {
+    background-color: white;
+    color: black;
+}
+
+.banner .banner-icon a i {
+    padding-right: 10px;
+}
+
+.service {
+    padding: 50px 0;
+}
+.service .service-left {
+    float: left;
+    margin-right: 85px;
+}
+.service .service-left img {
+    width: 500px;
+}
+.service .service-right {
+}
+.service .service-right h1 {
+    font-size: 56px;
+    padding-bottom: 20px;
+}
+.service .service-right p {
+    font-size: 23px;
+}
+
+.service-details {
+}
+.service-details .service-heading {
+    text-align: center;
+}
+.service-details .service-heading h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.service-details .service-heading p {
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+
+.service-item {
+}
+
+.service-details .service-item {
+}
+.service-details .service-item .item-1 {
+    width: 30%;
+    height: 235px;
+    margin: 15px 15px;
+    box-shadow: 0px 0px 20px 1px;
+    border-radius: 10px;
+    padding-right: 13px;
+    transition: 0.5s;
+}
+.service-details .service-item .item-1 .icon {
+    float: left;
+    height: 190px;
+    font-size: 50px;
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-right: 25px;
+    color: #fd7000;
+}
+.service-details .service-item .item-1 h1 {
+    padding-bottom: 10px;
+    padding-top: 30px;
+    font-size: 33px;
+}
+.service-details .service-item .item-1 p {
+    font-size: 23px;
+}
+
+.service-details .service-item .item-1:hover {
+    background-color: #c9c9c9;
+}
+
+/* pricing-start */
+
+.price {
+    background-color: #f7f7f7;
+    font-family: "Work Sans", sans-serif;
+}
+.price .pricing-header {
+    text-align: center;
+    padding: 50px 0;
+}
+.price .pricing-header h1 {
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.price .pricing-header p {
+    font-size: 20px;
+}
+
+.price .pricing-category {
+}
+.price .pricing-category .pricing-table {
+    width: 28.3%;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 45%);
+    margin: 32px;
+    background-color: white;
+    transition: 1s;
+}
+.price .pricing-category .pricing-table .pricing-table-header {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #1b1a1a;
+}
+.price .pricing-category .pricing-table .pricing-table-header h2 {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.price .pricing-category .pricing-table .pricing-table-header h1 {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    font-size: 50px;
+    background-color: #f5f5f5;
+}
+.price .pricing-category .pricing-table .pricing-table-header h1 span {
+    font-size: 25px;
+}
+.price .pricing-category .pricing-table .pricing-table-header h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.price .pricing-category .pricing-table .pricing-table-header p {
+    font-size: 27px;
+}
+
+.price .pricing-category .pricing-table .pricing-item {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+.price .pricing-category .pricing-table .pricing-item ul {
+    list-style: none;
+    padding-bottom: 40px;
+}
+.price .pricing-category .pricing-table .pricing-item ul li {
+    line-height: 60px;
+    font-size: 25px;
+}
+.price .pricing-category .pricing-table .pricing-item ul li .item-icon {
+    padding-right: 15px;
+    color: #f0932b;
+}
+
+.price .pricing-category .pricing-table .pricing-item .button {
+    text-align: center;
+    padding-right: 30px;
+}
+.price .pricing-category .pricing-table .pricing-item .button a {
+    text-decoration: none;
+    font-size: 26px;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, 0.2);
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.price .pricing-category .pricing-table:hover .pricing-table-header {
+    background-color: #ee9429;
+    color: white;
+}
+.price .pricing-category .pricing-table:hover h1 {
+    background-color: #ee9429;
+    color: white;
+}
+.price .pricing-category .pricing-table:hover .button a {
+    background-color: #ee9429;
+    color: white;
+}
+
+/* price-end */
+
+/* team-start */
+
+.team {
+    padding: 60px 0;
+    font-family: "Work Sans", sans-serif;
+}
+.team .team-header {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.team .team-header h1 {
+    font-size: 40px;
+}
+
+.team .team-1 {
+    background-color: #f1f3fd;
+}
+
+.team .team-1 .team-member {
+    border: 5px double #e5881d;
+    width: 23%;
+    margin: 8px;
+}
+.team .team-1 .team-member .img img {
+}
+.team .team-1 .team-member h1 {
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+.team .team-1 .team-member h3 {
+    padding-left: 35px;
+    color: #949297;
+    padding-bottom: 20px;
+}
+
+/* team-end */
+
+/* subscribe-start */
+
+.subscribe {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+}
+.subscribe p {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.subscribe h1 {
+    font-size: 50px;
+    padding-bottom: 45px;
+}
+.subscribe form .email {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 175px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 3px solid #fca901;
+}
+.subscribe .button {
+    padding-top: 30px;
+}
+.subscribe .button a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background-color: #fca901;
+    padding: 10px 60px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.subscribe .button a:hover {
+    background-color: white;
+    color: #fca901;
+    border: 1px solid #fca901;
+}
+
+/* subscribe-end */
+
+/* user-start */
+
+.user {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    font-family: "Work Sans", sans-serif;
+}
+.user .user-header {
+    text-align: center;
+}
+.user .user-header p {
+    padding-top: 20px;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.user .user-header h1 {
+    font-size: 42px;
+    padding-bottom: 55px;
+}
+
+.user .bio .user-details {
+    width: 30%;
+    border: 1px solid black;
+    margin: 20px;
+}
+.user .bio .user-details .user-about {
+    padding: 40px;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, 0.2);
+    background-color: white;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.user .bio .user-details .user-about::after {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 20px;
+    border-color: #ffffff transparent transparent transparent;
+}
+.user .bio .user-details .user-about p {
+    font-size: 25px;
+    position: relative;
+}
+.user .bio .user-details .user-about p::before {
+    content: "\f10d";
+    font-family: FontAwesome;
+    position: absolute;
+    opacity: 0.15;
+    font-size: 70px;
+    top: -25px;
+    left: -10px;
+}
+.user .user-details .user-info {
+}
+.user .user-details .user-info .img img {
+    width: 79px;
+    border: 9px solid #fca901;
+    margin-left: 45px;
+    margin-top: 39px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.user .user-details .user-info .user-info-1 {
+}
+.user .user-details .user-info .user-info-1 h1 {
+    padding-top: 50px;
+    padding-bottom: 7px;
+}
+.user .user-details .user-info .user-info-1 p {
+    font-size: 21px;
+}
+
+.contact-map {
+    margin-top: 70px;
+    width: 50%;
+}
+.contact {
+    text-align: center;
+    margin-top: 50px;
+    width: 50%;
+    font-family: "Work Sans", sans-serif;
+}
+.contact .contact-header {
+}
+.contact .contact-header h1 {
+    margin-bottom: 20px;
+}
+.contact .contact-header p {
+    /* width: 595px; */
+    margin: auto;
+    font-size: 20px;
+}
+
+.contact .contact-form {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.contact .contact-form .email {
+    width: 97%;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #fca901;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, 0.2);
+}
+.contact .contact-form .name {
+    padding-top: 10px;
+    width: 46%;
+    margin-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #fca901;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, 0.2);
+}
+.contact .contact-form .number {
+    width: 46%;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #fca901;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, 0.2);
+}
+.contact .contact-form .message {
+    margin-top: 15px;
+    width: 97%;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #fca901;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, 0.2);
+}
+.button {
+}
+.contact .contact-form .button {
+    margin-top: 30px;
+}
+.contact .contact-form .button a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background-color: #fca901;
+    padding: 10px 60px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.contact-form .button a:hover {
+    color: #fca901;
+    background-color: white;
+    border: 1px solid #fca901;
+}
+
+
